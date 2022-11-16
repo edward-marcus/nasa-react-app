@@ -21,6 +21,7 @@
   padding: 1em;
   border: 1px solid blanchedalmond;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .page-link:active,
