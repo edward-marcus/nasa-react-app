@@ -1,0 +1,69 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin: 1.5em 0;
+}
+
+.description {
+  margin: 2em 0;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.container > img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.date {
+  font-weight: bold;
+  text-align: right;
+  padding: 1em 0;
+  border-bottom: 2px dotted black;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .description {
+    font-size: 1.4rem;
+    line-height: 2;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .container {
+    padding: 0 4em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .description {
+    font-size: 1.2rem;
+  }
+
+  .container h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    padding: 0 1.2em;
+  }
+
+  .container h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .description,
+  .date {
+    font-size: 0.6rem;
+  }
+}

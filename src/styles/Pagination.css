@@ -1,0 +1,50 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination {
+  text-decoration: none;
+  display: flex;
+  margin: 3em 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-item {
+  list-style: none;
+}
+
+.page-link {
+  text-decoration: none;
+  background-color: aqua;
+  padding: 1em;
+  border: 1px solid blanchedalmond;
+  font-weight: bold;
+}
+
+.page-link:active,
+.page-link:focus,
+.page-link:visited {
+  background-color: beige;
+  color: red;
+}
+
+/* ------------------------------------------------------ CSS QUERIES--------------------------------------------*/
+
+@media only screen and (max-width: 700px) {
+  .pagination {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .pagination {
+    padding: 0;
+  }
+
+  .page-link {
+    font-size: 0.6rem;
+    padding: 1em;
+  }
+}

@@ -1,0 +1,8 @@
+.loading-placeholder {
+  text-align: center;
+}
+
+.loading-placeholder img {
+  max-width: 100%;
+  object-fit: cover;
+}

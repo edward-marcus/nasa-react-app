@@ -1,0 +1,38 @@
+header {
+  background: linear-gradient(135deg, #1e90ff 40%, white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7em 3em;
+}
+
+header > span {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.logo > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 880px) {
+  header > span {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header > span {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}
